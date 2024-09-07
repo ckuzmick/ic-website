@@ -1,0 +1,26 @@
+:root {
+  --background-color: #000000;
+  --background-accent-color: #111111;
+  --text-color: #ffffff;
+  --nav-height: 48px;
+
+  --display-font: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--display-font);
+}
+
+main {
+  color: var(--text-color);
+  padding-top: var(--nav-height);
+}
+
+html {
+  overflow: hidden;
+  background-color: var(--background-color);
+
+}

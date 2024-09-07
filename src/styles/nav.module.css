@@ -1,0 +1,52 @@
+.bar {
+    background-color: var(--background-accent-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: var(--nav-height);
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.movingbar {
+    background-color: var(--background-accent-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: var(--nav-height);
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    animation-name: slideDown;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    transform: translateY(-100%);
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
