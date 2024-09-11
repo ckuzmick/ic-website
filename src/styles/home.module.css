@@ -15,7 +15,7 @@
 .title {
   font-size: 6rem;
   font-weight: 700;
-  margin-top: 48px;
+  margin-top: 0px;
   margin-bottom: 1rem;
   overflow: hidden;
   cursor: default;
@@ -35,7 +35,7 @@
   animation-duration: 1s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s;
+  animation-delay: 0.25s;
   opacity: 0;
   border-bottom: 1px solid var(--text-color);
 }
