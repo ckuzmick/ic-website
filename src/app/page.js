@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <main className={styles.hero}>
         <h1 className={styles.title}>CRLS Investment Club</h1>
-        <a className={styles.subtitle} href="https://docs.google.com/forms/d/e/1FAIpQLSfjblcwqPDct85ekPHnXPI4L4DA2P3jWPPNX6KQAj4U14iNLQ/viewform?usp=sf_link" target="_blank">Join Now</a>
+        <a className={styles.subtitle} href="https://classroom.google.com/c/MTUwODY2NzAzNzM3?cjc=n6twwij" target="_blank">Join Now</a>
         {/* <p>
           wednesdays at 8 - room 4401
           - 1st meeting 9/18
